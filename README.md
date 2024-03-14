@@ -13,6 +13,7 @@ pip install -r requirements.txt
 Setup
 
 API Key Configuration: To use the Anthropic API, set the ANTHROPIC_API_KEY environment variable to your API key:
+
 import os
 os.environ['ANTHROPIC_API_KEY'] = 'your_anthropic_api_key_here'
 Model Configuration: Configure the LLAMA Index model and embedding model:
